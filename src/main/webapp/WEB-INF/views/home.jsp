@@ -13,5 +13,13 @@
 <P>  The time on the server is ${serverTime}. </P>
 <h1>test</h1>
 <h1>한글 테스트 </h1>
+<table>
+	<tr>
+		<td>123</td>
+		<td>123</td>
+		<td>123</td>
+		
+	</tr>
+</table>
 </body>
 </html>
