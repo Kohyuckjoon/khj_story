@@ -5,17 +5,31 @@
 <head>
 <title>Home</title>
 <style type="text/css">
-	div{
-		border: 1px solid silver;
+	*{
+		margin: 0;
+		padding: 0;
 	}
-	.topL, .topR{
-		float: left;
-		width: 20%;
+	/* div{
+		border: 1px solid silver;
+	} */
+	
+	.topBanner{
+		margin: 0; 
+		padding: 0;
 	}
 	
-	.topC{
+	.topNaviMain{
+	
+	}
+	
+	.topNavi{
 		float: left;
-		width: 60%;
+		background: black;
+		width: 25%;
+		height: 7.5%;
+		color: white;
+		text-align: center;
+		
 	}
 	
 </style>
@@ -23,28 +37,27 @@
 
 <body>
 
-<h1>test</h1>
-<h1>한글 테스트 </h1>
 <div>
-	<div>
-		<div class="topL">왼쪽</div>
-		<div class="topC">가운데</div>
-		<div>오른쪽</div>
+	<div class="topNaviMain">
+		<div class="topNavi">
+			<ul>
+				<li style="height: 50%;">KHJ</li>
+			</ul>
+		</div>
+		<div class="topNavi">123</div>
+		<div class="topNavi">123</div>
+		<div class="topNavi">123</div>
 	</div>
+	<!-- 상단 -->
+	<div class="topBanner">
+		<img src="resources/img/mainBackGroundImg.png">
+	</div>
+	<!-- 이름 -->
+	<div>두번째라인</div>
+
 	
-	<div>
-		<div class="topL">왼쪽</div>
-		<div class="topC">가운데</div>
-		<div>오른쪽</div>
-	</div>
-	<div>
-		<div class="topL">왼쪽</div>
-		<div class="topC">가운데</div>
-		<div>오른쪽</div>
-	</div>
 </div>
 
 
-<P>  The time on the server is ${serverTime}. </P>
 </body>
 </html>
