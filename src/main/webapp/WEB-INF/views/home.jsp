@@ -157,7 +157,7 @@
 	
 	<div>
 		<!-- aboutMe -->
-		<div class="aboutMe">
+		<div class="aboutMe" style="margin-bottom: 3%;">
 			<strong>
 				ABOUT ME
 			</strong>
@@ -188,119 +188,123 @@
 			</table>
 		</div> -->
 		
-		<div class="test" style="width:60%; margin: 0% auto; height: 20%; text-align: center;">
+		<div  style="width:70%; margin: 0% auto; height: 20%; text-align: center;">
 			<!-- userName -->
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
+			<div  style="float:left; width:10%; height: 100%;">
 				<i class="fa-solid fa-user" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">이름</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">고혁준</div>
+			<div  style="float:left; width:22.9%; height: 100%;">
+				<div  style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">이름</div>
+				<div  style="height:42.5%; font-size:1.3em; text-align:center; margin: 2%;">고혁준</div>
 			</div>
 			
 			<!-- birthday -->
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
+			<div  style="float:left; width:10%; height: 100%;">
 				<i class="fa-solid fa-calendar-days" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">생년월일</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">1995.06.15</div>
+			<div  style="float:left; width:23%; height: 100%;">
+				<div  style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">생년월일</div>
+				<div  style="height:42.5%; font-size:1.3em; text-align: center; margin: 2%;">1995.06.15</div>
 			</div>
-		</div>
-		<div class="test" style="width:60%; margin: 0% auto; height: 20%; text-align: center;">
+			
 			<!-- location -->
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
+			<div  style="float:left; width:10%; height: 100%;">
 				<i class="fa-solid fa-location-dot" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">주소지</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">경기도 광주시</div>
+			<div  style="float:left; width:22.9%; height: 100%;">
+				<div  style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">주소지</div>
+				<div  style="height:42.5%; font-size:1.3em; text-align: center; margin: 2%;">경기도 광주시</div>
 			</div>
-			
-			<!-- call -->
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
+		</div>
+		
+		<div  style="width:70%; margin: 0% auto; height: 20%; text-align: center;">
+			<!-- userName -->
+			<div  style="float:left; width:10%; height: 100%;">
 				<i class="fa-solid fa-mobile-screen-button" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">연락처</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">010 - 9231 - 1175</div>
-			</div>
-		</div>
-		
-		<div class="test" style="width:60%; margin: 0% auto; height: 20%; text-align: center;">
-			<!-- email -->
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
-				<i class="fa-solid fa-envelope" style="font-size: 3em; margin-top: 20%;"></i>
-			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">email</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">akhj123akhj@naver.com</div>
+			<div  style="float:left; width:22.9%; height: 100%;">
+				<div  style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">연락처</div>
+				<div  style="height:42.5%; font-size:1.3em; text-align:center; margin: 2%;">010 - 9231 - 1175</div>
 			</div>
 			
-			<!-- education -->
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
+			<!-- birthday -->
+			<div  style="float:left; width:10%; height: 100%;">
+				<i class="fa-solid fa-envelope" style="font-size: 3em; margin-top: 20%;"></i>
+			</div>
+			<div  style="float:left; width:23%; height: 100%;">
+				<div  style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">EMAIL</div>
+				<div  style="height:42.5%; font-size:1.3em; text-align: center; margin: 2%;">akhj123akhj@naver.com</div>
+			</div>
+			
+			<!-- location -->
+			<div  style="float:left; width:10%; height: 100%;">
 				<i class="fa-solid fa-graduation-cap" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">학력</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">동서울대학교<br>(컴퓨터소프트웨어과)</div>
+			<div  style="float:left; width:22.9%; height: 100%;">
+				<div  style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">학력사항</div>
+				<div  style="height:42.5%; font-size:1.3em; text-align: center; margin: 2%;">동서울대학교<br>(컴퓨터소프트웨어과)</div>
 			</div>
 		</div>
-		
+		<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
 		<!-- 
-		<div class="test" style="width:60%; margin: 0% auto; height: 20%; text-align: center;">
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
+		<div class="test" style="width:70%; margin: 0% auto; height: 20%; text-align: center;">
+			<div class="test" style="float:left; width:10%; height: 100%;">
 				<i class="fa-solid fa-user" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">이름</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">고혁준</div>
+			<div class="test" style="float:left; width:22.9%; height: 100%;">
+				<div class="test" style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">이름</div>
+				<div class="test" style="height:42.5%; font-size:1.3em; text-align:center; margin: 2%;">고혁준</div>
 			</div>
 			
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
+			<div class="test" style="float:left; width:10%; height: 100%;">
 				<i class="fa-solid fa-calendar-days" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">생년월일</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">1995.06.15</div>
-			</div>
-		</div>
-		<div class="test" style="width:60%; margin: 0% auto; height: 20%; text-align: center;">
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
-				<i class="fa-solid fa-location-dot" style="font-size: 3em; margin-top: 20%;"></i>
-			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">주소지</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">경기도 광주시</div>
+			<div class="test" style="float:left; width:23%; height: 100%;">
+				<div class="test" style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">생년월일</div>
+				<div class="test" style="height:42.5%; font-size:1.3em; text-align: center; margin: 2%;">1995.06.15</div>
 			</div>
 			
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
-				<i class="fa-solid fa-mobile-screen-button" style="font-size: 3em; margin-top: 20%;"></i>
+			<div class="test" style="float:left; width:10%; height: 100%;">
+				<i class="fa-solid fa-location-dot" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">연락처</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">010 - 9231 - 1175</div>
+			<div class="test" style="float:left; width:22.9%; height: 100%;">
+				<div class="test" style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">주소지</div>
+				<div class="test" style="height:42.5%; font-size:1.3em; text-align: center; margin: 2%;">경기도 광주시</div>
 			</div>
 		</div>
 		
-		<div class="test" style="width:60%; margin: 0% auto; height: 20%; text-align: center;">
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
-				<i class="fa-solid fa-envelope" style="font-size: 3em; margin-top: 20%;"></i>
+		<div class="test" style="width:70%; margin: 0% auto; height: 20%; text-align: center;">
+			<div class="test" style="float:left; width:10%; height: 100%;">
+				<i class="fa-solid fa-mobile-screen-button" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">email</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">akhj123akhj@naver.com</div>
+			<div class="test" style="float:left; width:22.9%; height: 100%;">
+				<div class="test" style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">연락처</div>
+				<div class="test" style="height:42.5%; font-size:1.3em; text-align:center; margin: 2%;">010 - 9231 - 1175</div>
 			</div>
 			
-			<div class="test" style="float:left; width:14.5%; height: 100%;">
+			<div class="test" style="float:left; width:10%; height: 100%;">
+				<i class="fa-solid fa-envelope" style="font-size: 3em; margin-top: 20%;"></i>
+			</div>
+			<div class="test" style="float:left; width:23%; height: 100%;">
+				<div class="test" style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">EMAIL</div>
+				<div class="test" style="height:42.5%; font-size:1.3em; text-align: center; margin: 2%;">akhj123akhj@naver.com</div>
+			</div>
+			
+			<div class="test" style="float:left; width:10%; height: 100%;">
 				<i class="fa-solid fa-graduation-cap" style="font-size: 3em; margin-top: 20%;"></i>
 			</div>
-			<div class="test" style="float:left; width:35%; height: 100%;">
-				<div class="test" style="height:42.5%; font-size:2em; text-align:left; font-weight:bold; margin: 2%;">학력</div>
-				<div class="test" style="height:42.5%; font-size:1.3em; text-align: left; margin: 2%;">동서울대학교<br>(컴퓨터소프트웨어과)</div>
+			<div class="test" style="float:left; width:22.9%; height: 100%;">
+				<div class="test" style="height:42.5%; font-size:2em; text-align:center; font-weight:bold; margin: 2%;">학력사항</div>
+				<div class="test" style="height:42.5%; font-size:1.3em; text-align: center; margin: 2%;">동서울대학교<br>(컴퓨터소프트웨어과)</div>
 			</div>
 		</div>
 		-->
+		
+		
+		
+		
+		
+		
 		
 		<div class="summary">
 			<strong>
