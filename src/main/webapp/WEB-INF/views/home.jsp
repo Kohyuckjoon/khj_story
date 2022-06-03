@@ -22,14 +22,21 @@
 		padding: 0;
 	}
 	
-	.topNaviMain{
-
+	.topNaviName{
+		float: left;
+		background: black;
+		width: 25%;
+		height: 7.5%;
+		color: white;
+		text-align: center;
+		font-size: 1.25rem;
+		text-decoration: none;
 	}
 	
 	.topNavi{
 		float: left;
 		background: black;
-		width: 20%;
+		width: 15%;
 		height: 7.5%;
 		color: white;
 		text-align: center;
@@ -137,12 +144,13 @@
 
 <div>
 	<div class="topNaviMain">
-		<div class="topNavi">
+		<div class="topNaviName">
 			<ul>
 				<li style="height: 50%;">KO HYUCK JOON</li>
 			</ul>
 		</div>
 		<!-- SUMMARY -->
+		<div class="topNavi">ABOUT ME</div>
 		<div class="topNavi">SUMMARY</div>
 		
 		<div class="topNavi">PROJECT</div>
@@ -156,6 +164,15 @@
 	</div>
 	
 	<div>
+		<div class="summary">
+			<strong>
+				SUMMARY
+			</strong>
+		</div><br>
+		<div class="summaryInfo">
+			안녕하십니까! 웹 개발자(Front&Back) 고혁준입니다. IT를 사랑하며, 끊임없는 발전을 위해 노력하고 준비하고 <strong>움직이는 인재</strong>입니다.<br><br>
+			배울점은 겸허하게 받아들이며 <strong>성장하는 개발자</strong>가 되기 위해 노력하고 있습니다.
+		</div><br>
 		<!-- aboutMe -->
 		<div class="aboutMe" style="margin-bottom: 3%;">
 			<strong>
@@ -300,21 +317,6 @@
 		</div>
 		-->
 		
-		
-		
-		
-		
-		
-		
-		<div class="summary">
-			<strong>
-				SUMMARY
-			</strong>
-		</div><br>
-		<div class="summaryInfo">
-			안녕하십니까! 웹 개발자(Front&Back) 고혁준입니다. IT를 사랑하며, 끊임없는 발전을 위해 노력하고 준비하고 <strong>움직이는 인재</strong>입니다.<br><br>
-			배울점은 겸허하게 받아들이며 <strong>성장하는 개발자</strong>가 되기 위해 노력하고 있습니다.
-		</div><br>
 	</div>
 
 	<div class="contactChannels">
@@ -337,9 +339,9 @@
 		<div class="whiteBoxIn" style="border: 1px solid silver;">
 			<table style="width: 100%; height: 100%; text-align: center;">
 				<tr>
-				    <td style="width: 33.3%">기술 구분</td>
-				    <td style="width: 33.3%">로고</td>
-				    <td style="width: 33.3%">평가</td>
+				    <td style="width: 33.3%; font-size: 1.2em;">기술 구분</td>
+				    <td style="width: 33.3%; font-size: 1.2em;">로고</td>
+				    <td style="width: 33.3%; font-size: 1.2em;">평가</td>
 				</tr>
 				<tr>
 				    <td>OracleDB</td>
