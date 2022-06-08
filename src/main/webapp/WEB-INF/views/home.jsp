@@ -96,20 +96,20 @@
 	}
 	.stacksInfo{
 		font-size: 1.2em;
-		margin: 5%;
+		margin: 7%;
 		margin-bottom: 1.5%;
 	}
 	
 	.whiteBoxOut{
 		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
-		margin: 4%;
+		margin: 7%;
 		background: white;
 		height: 100%;
 	}
 	.whiteBoxIn{
-		margin: 2%;
+		margin: 5%;
 		background: white;
-		height: 92%;
+		height: 87%;
 	}
 	
 	.education{
@@ -337,15 +337,15 @@
 	
 	<div class="whiteBoxOut" style="border: 1px solid silver;">
 		<div class="whiteBoxIn" style="border: 1px solid silver;">
-			<table style="width: 100%; height: 100%; text-align: center;">
+			<table style="width: 100%; height: 100%; text-align: center; margin: 2.5%;">
 				<tr>
 				    <td style="width: 33.3%; font-size: 1.2em;">기술 구분</td>
 				    <td style="width: 33.3%; font-size: 1.2em;">로고</td>
 				    <td style="width: 33.3%; font-size: 1.2em;">평가</td>
 				</tr>
 				<tr>
-				    <td>OracleDB</td>
-				    <td>123</td>
+				    <th>OracleDB</th>
+				    <td><img src="resources/img/oracle_logo.png" height="100px"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -355,8 +355,8 @@
 				    </td>
 				</tr>
 				<tr>
-				    <td>MariaDB</td>
-				    <td>123</td>
+				    <th>MariaDB</th>
+				    <td><img src="resources/mariadbLogo.png" style="height: 30px;"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -366,8 +366,8 @@
 				    </td>
 				</tr>
 				<tr>
-				    <td>Java</td>
-				    <td>123</td>
+				    <th>Java</th>
+				    <td><img src="resources/img/java_logo.png" style="height: 120px;"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -377,8 +377,8 @@
 				    </td>
 				</tr>
 				<tr>
-				    <td>HTML</td>
-				    <td>123</td>
+				    <th>HTML</th>
+				    <td><img src="resources/img/html_logo.png" style="height: 70px;"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -388,8 +388,8 @@
 				    </td>
 				</tr>
 				<tr>
-				    <td>CSS</td>
-				    <td>123</td>
+				    <th>CSS</th>
+				    <td><img src="resources/img/css_logo.jpeg" style="height: 70px;"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -399,8 +399,8 @@
 				    </td>
 				</tr>
 				<tr>
-				    <td>JavaScript</td>
-				    <td>123</td>
+				    <th>JavaScript</th>
+				    <td><img src="resources/img/javaScriptLogo.jpeg" style="height: 70px; margin-bottom: 10%"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-regular fa-star"></i>
@@ -410,17 +410,16 @@
 				    </td>
 				</tr>
 				<tr>
-				    <td>Java</td>
-				    <td>123</td>
+				    <th>Spring</th>
+				    <td><img src="resources/img/spring_logo.png" style="height: 70px; margin-bottom: 10%"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
-				    	<i class="fa-solid fa-star"></i>
-				    	<i class="fa-solid fa-star"></i>
+				    	<i class="fa-regular fa-star"></i>
+				    	<i class="fa-regular fa-star"></i>
 				    	<i class="fa-regular fa-star"></i>
 				    	<i class="fa-regular fa-star"></i>
 				    </td>
 				</tr>
-				
 			</table>
 		</div>
 	</div>
@@ -429,8 +428,10 @@
 		<strong>EDUCATION</strong><br>
 	</div>
 	
-	<div class="educationInfo">
-		te
+	<div class="educationInfo test">
+		<div>123</div>
+		<div>123</div>
+		<div>123</div>
 	</div>
 </div>
 
