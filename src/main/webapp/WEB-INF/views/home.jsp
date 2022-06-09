@@ -109,7 +109,7 @@
 	.whiteBoxIn{
 		margin: 5%;
 		background: white;
-		height: 87%;
+		height: 85%;
 	}
 	
 	.education{
@@ -345,7 +345,7 @@
 				</tr>
 				<tr>
 				    <th>OracleDB</th>
-				    <td><img src="resources/img/oracle_logo.png" height="100px"></td>
+				    <td><img src="resources/img/oracle_logo.png" height="70px"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -356,7 +356,7 @@
 				</tr>
 				<tr>
 				    <th>MariaDB</th>
-				    <td><img src="resources/mariadbLogo.png" style="height: 30px;"></td>
+				    <td><img src="resources/img/mariaDBLogo.png" height="70px"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -367,7 +367,7 @@
 				</tr>
 				<tr>
 				    <th>Java</th>
-				    <td><img src="resources/img/java_logo.png" style="height: 120px;"></td>
+				    <td><img src="resources/img/java_logo.png" height="70px"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -378,7 +378,7 @@
 				</tr>
 				<tr>
 				    <th>HTML</th>
-				    <td><img src="resources/img/html_logo.png" style="height: 70px;"></td>
+				    <td><img src="resources/img/html_logo.png" height="70px"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -389,7 +389,7 @@
 				</tr>
 				<tr>
 				    <th>CSS</th>
-				    <td><img src="resources/img/css_logo.jpeg" style="height: 70px;"></td>
+				    <td><img src="resources/img/css_logo.jpeg" height="70px"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-solid fa-star"></i>
@@ -400,7 +400,7 @@
 				</tr>
 				<tr>
 				    <th>JavaScript</th>
-				    <td><img src="resources/img/javaScriptLogo.jpeg" style="height: 70px; margin-bottom: 10%"></td>
+				    <td><img src="resources/img/javaScriptLogo.jpeg" height="70px"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-regular fa-star"></i>
@@ -411,7 +411,7 @@
 				</tr>
 				<tr>
 				    <th>Spring</th>
-				    <td><img src="resources/img/spring_logo.png" style="height: 70px; margin-bottom: 10%"></td>
+				    <td><img src="resources/img/spring_logo.png" height="70px" style="margin-bottom: 5%;"></td>
 				    <td>
 				    	<i class="fa-solid fa-star"></i>
 				    	<i class="fa-regular fa-star"></i>
