@@ -13,143 +13,79 @@
 		border: 1px solid silver;
 	} */
 	
-	.test{
-		border: 1px solid silver;
+	* {
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+	border-radius: 5px;
 	}
-	
-	.topBanner{
-		margin: 0; 
-		padding: 0;
+	 
+	body {
+	  margin: 0;
+	  background-color: #292727;
 	}
-	
-	.topNaviName{
-		float: left;
-		background: black;
-		width: 25%;
-		height: 7.5%;
-		color: white;
-		text-align: center;
-		font-size: 1.25rem;
-		text-decoration: none;
+	 
+	.login-form {
+	    width: 300px;
+	    background-color: #EEEFF1;
+	    margin-right: auto;
+	    margin-left: auto;
+	    margin-top: 50px;
+	    padding: 20px;
+	    text-align: center;
+	    border: none;
+	    
 	}
-	
-	.topNavi{
-		float: left;
-		background: black;
-		width: 15%;
-		height: 7.5%;
-		color: white;
-		text-align: center;
-		font-size: 1.25rem;
-		text-decoration: none;
+	 
+	.text-field {
+	      font-size: 14px;
+	      padding: 10px;
+	      border: none;
+	      width: 260px;
+	      margin-bottom: 10px;
+	 
 	}
-	
-	.aboutMe{
-		font-size: 3.5em;
-		text-align: center;
-		margin-top: 30%;
+	 
+	.submit-btn {
+	  font-size: 14px;
+	  border: none;
+	  padding: 10px;
+	  width: 260px;
+	  background-color: #2e2d2d;
+	  margin-bottom: 30px;
+	  color: white;
 	}
-	.aboutMeInfo{
-		font-size: 1.2em;
-		text-align: center;
-		margin: 2.5%;
-		margin-bottom: 30%;
+	 
+	.links {
+	    text-align: center;
 	}
-	
-	.summary{
-		font-size: 3.5em;
-		text-align: center;
-		margin-top: 20%;
-	}
-	
-	.summaryInfo{
-		font-size: 1.2em;
-		text-align: center;
-		margin: 2.5%;
-		margin-bottom: 20%;
-	}
-	
-	.contactChannels{
-		font-size: 2.7em;
-		text-align: center;
-		margin-top: 20%;
-	}
-	
-	.contactChannelsInfoLeft{
-		font-size: 1.2em;
-		text-align: center;
-		margin: 2.5%;
-		margin-bottom: 20%;
-	}
-	.contactChannelsInfoRight{
-		font-size: 1.2em;
-		text-align: left;
-		margin: 2.5%;
-		margin-left: 1%;
-		margin-bottom: 20%;
-	}
-		
-	.stacks{
-		font-size: 2.7em;
-		text-align: center;
-		margin-top: 25%;
-	}
-	.stacksInfo{
-		font-size: 1.2em;
-		margin: 7%;
-		margin-bottom: 1.5%;
-	}
-	
-	.whiteBoxOut{
-		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
-		margin: 7%;
-		background: white;
-		height: 100%;
-	}
-	.whiteBoxIn{
-		margin: 5%;
-		background: white;
-		height: 85%;
-	}
-	
-	.education{
-		font-size: 2.7em;
-		text-align: center;
-		margin-top: 25%;
-	}
-	.educationInfo{
-		font-size: 1.2em;
-		margin: 5%;
-		margin-left: 5%;
-		margin-bottom: 1.5%;
-	}
-	
-	.aboutMeBox{
-		box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
-		margin: 0% auto;
-		background: white;
-		height: 40%;
-		width: 50%;
-	}
-	.aboutMeBoxIn{
-		margin: 2%;
-		background: white;
-		height: 40%;
+	 
+	.links a {
+	  font-size: 12px;
+	  color: #9B9B9B;
 	}
 </style>
 <script src="https://kit.fontawesome.com/7627323f27.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	function login_button(){
+		if (window.confirm("로그인 하시겠습니까?")) {
+			alert("로그인 되었습니다. 메인 화면으로 진입합니다.");
+			location.href="/mainHome";
+		}
+	}
+</script>
 </head>
-
 <body>
-<div style="margin: 10%">
-	<div>login</div>
-	<div>ID : <input type="text"></div>
-	<div>PW : <input type="password"></div>
-</div>
-
-<div style="margin: 15%">
-	<a href="/mainHome">확 인</a>
-</div>
+<div class="login-form">
+    <form>
+      <input type="text" name="email" class="text-field" placeholder="아이디">
+      <input type="password" name="password" class="text-field" placeholder="비밀번호">
+      <input type="button" value="로그인" class="submit-btn" onclick="login_button();">
+    </form>
+ 
+    <div class="links">
+      <a href="#">비밀번호를 잊어버리셨나요?</a>
+    </div>
+  </div>
 
 
 </body>

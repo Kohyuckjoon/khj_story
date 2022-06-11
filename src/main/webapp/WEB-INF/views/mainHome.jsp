@@ -18,8 +18,10 @@
 	}
 	
 	.topBanner{
+		width:100%;
 		margin: 0; 
 		padding: 0;
+		object-fit: cover;
 	}
 	
 	.topNaviName{
@@ -146,17 +148,18 @@
 	<div class="topNaviMain">
 		<div class="topNaviName">
 			<ul>
-				<li style="height: 50%;">KO HYUCK JOON</li>
+				<li style="height: 50%; line-height: 50px;">KO HYUCK JOON</li>
 			</ul>
 		</div>
 		<!-- SUMMARY -->
-		<div class="topNavi">ABOUT ME</div>
-		<div class="topNavi">SUMMARY</div>
 		
-		<div class="topNavi">PROJECT</div>
+		<div class="topNavi" style="line-height: 50px;">ABOUT ME</div>
+		<div class="topNavi" style="line-height: 50px;">SUMMARY</div>
+		
+		<div class="topNavi" style="line-height: 50px;">PROJECT</div>
 		<!-- STACK -->
-		<div class="topNavi">STACK</div>
-		<div class="topNavi">EDUCATION</div>
+		<div class="topNavi" style="line-height: 50px;">STACK</div>
+		<div class="topNavi" style="line-height: 50px;">EDUCATION</div>
 	</div>
 	<!-- 상단 -->
 	<div class="topBanner">
