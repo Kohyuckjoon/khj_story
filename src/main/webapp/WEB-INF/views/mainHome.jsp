@@ -265,7 +265,7 @@
 				<div  style="height:42.5%; font-size:1.3em; text-align: center; margin: 2%;">동서울대학교<br>(컴퓨터소프트웨어과)</div>
 			</div>
 		</div>
-		<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+		<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
 		<!-- 
 		<div class="test" style="width:70%; margin: 0% auto; height: 20%; text-align: center;">
 			<div class="test" style="float:left; width:10%; height: 100%;">
