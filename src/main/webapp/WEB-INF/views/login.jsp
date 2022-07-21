@@ -67,25 +67,20 @@
 <script src="https://kit.fontawesome.com/7627323f27.js" crossorigin="anonymous"></script>
 <script type="text/javascript">
 	function login_button(){
-		if (window.confirm("로그인 하시겠습니까?")) {
-			alert("로그인 되었습니다. 메인 화면으로 진입합니다.");
+		if (window.confirm("입장 하시겠습니까?")) {
+			alert("입장 되었습니다. 메인 화면으로 진입합니다.");
 			location.href="/mainHome";
 		}
 	}
+	
 </script>
 </head>
 <body>
 <div class="login-form">
-    <form>
-      <input type="text" name="email" class="text-field" placeholder="아이디">
-      <input type="password" name="password" class="text-field" placeholder="비밀번호">
-      <input type="button" value="로그인" class="submit-btn" onclick="login_button();">
-    </form>
- 
-    <div class="links">
-      <a href="#">비밀번호를 잊어버리셨나요?</a>
-    </div>
-  </div>
+	<form>
+	  <input type="button" value="입장하기" class="submit-btn" onclick="login_button();">
+	</form>
+</div>
 
 
 </body>
